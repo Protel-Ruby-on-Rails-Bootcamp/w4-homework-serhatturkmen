@@ -13,9 +13,9 @@
 <body>
 
 <p>
-  <%= link_to 'Dasboard', root_path %>
+  <%= link_to 'Homepage', root_path %>
   <% if user_signed_in? %>
-    | <%= link_to 'User Dashboard', posts_path %>
+    | <%= link_to 'User Dashboard', dashboard_path %>
   <% end %>
 </p>
 
